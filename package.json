@@ -1,0 +1,29 @@
+{
+  "name": "netcrave_dyndns",
+  "version": "1.0.0",
+  "description": "dyndns for netcrave communications",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/paigeadele/netcrave_dyndns.git"
+  },
+  "keywords": [
+    "netcrave",
+    "dyndns",
+    "dns"
+  ],
+  "author": "Paige Thompson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paigeadele/netcrave_dyndns/issues"
+  },
+  "homepage": "https://github.com/paigeadele/netcrave_dyndns#readme",
+  "dependencies": {
+    "ifconfig.me": "https://github.com/alexstrat/ifconfig.me-node/tarball/master",
+    "ini": "^1.3.5",
+    "inwx": "^1.0.0"
+  }
+}
